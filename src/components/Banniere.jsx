@@ -9,7 +9,7 @@ const Banniere = ({nbMrkrs}) => {
 
     return (
         <div className={isDark ? 'nbMarkers1' : 'nbMarkers2'}>
-            Nombre de markers : {nbMrkrs} <button onClick={() => {update(prev => !prev);}}>Changer Thème</button>
+            Nombre de markers : {nbMrkrs}
         </div>
 
     );
